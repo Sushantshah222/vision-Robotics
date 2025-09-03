@@ -37,8 +37,9 @@ pip install opencv-python mediapipe pyserial
 
 ## ▶️ Running the Code
 
-1. Plug Arduino into your computer.  
-2. Find your serial port:  
+1. Plug Arduino into your computer and upload Arduino code into it.
+2. Close arduino IDE and shift towards Python Code.
+3. Find your serial port:  
 
 ```bash
    ls /dev/cu.*    # macOS
@@ -46,11 +47,12 @@ pip install opencv-python mediapipe pyserial
 ```
 Example: /dev/tty.usbserial-1130
 
-3. Update SERIAL_PORT in the script (e.g., pressing.py).
-4. Run:
+4. Update SERIAL_PORT in the script (e.g., pressing.py).
+5. Run:
 
 ```bash
    uv run pressing.py
 ```
-5. Use your finger gestures or press the virtual buttons on screen!
+6. Use your finger gestures or press the virtual buttons on screen!
 
+![2](https://github.com/user-attachments/assets/41f03ecd-d50e-49d5-9044-535c9afc023d)
